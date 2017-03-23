@@ -15,7 +15,7 @@
       
      
        <ul class="nav navbar-nav navbar-right">
-         <li *ngIf=!authorized><a  href="/checkin" >Check In</a></li>
+         <li  *ngIf=!authorized><a  href="/checkin" ><img id=connect  src="http://tweetmonsters.com/images/sign_in.png" alt=""></a></li>
          <li *ngIf=authorized><a  href="/checkin" >Hello {{user.username}}</a></li>
           <li *ngIf=authorized><a  href="/logout" >Check Out</a></li>
       </ul>

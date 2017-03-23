@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-     "start": "node server.js",
+    "start": "node server.js",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -13,8 +13,10 @@
   },
   "private": true,
   "dependencies": {
+    "@angular/cli": "1.0.0-rc.4",
     "@angular/common": "^2.4.0",
     "@angular/compiler": "^2.4.0",
+    "@angular/compiler-cli": "^2.4.10",
     "@angular/core": "^2.4.0",
     "@angular/forms": "^2.4.0",
     "@angular/http": "^2.4.0",
@@ -31,11 +33,9 @@
     "passport-twitter": "^1.0.4",
     "request": "^2.81.0",
     "rxjs": "^5.1.0",
-    "zone.js": "^0.7.6",
-     "@angular/cli": "1.0.0-rc.4"
+    "zone.js": "^0.7.6"
   },
   "devDependencies": {
-   
     "@angular/compiler-cli": "^2.4.0",
     "@types/jasmine": "2.5.38",
     "@types/node": "~6.0.60",
@@ -53,9 +53,8 @@
     "tslint": "~4.5.0",
     "typescript": "~2.0.0"
   },
-
   "engines": {
-  "node": "7.7.2",
-  "npm": "4.1.2"
-}
+    "node": "7.7.2",
+    "npm": "4.1.2"
+  }
 }

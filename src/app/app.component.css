@@ -7,6 +7,10 @@
 
 .jumbotron{
     background-color:#8A9CEB;
+    margin-left:40px;
+}
+#connect{
+    width:60%;
 }
 
 
